@@ -1,0 +1,23 @@
+mode: paper
+
+assets:
+  BTC:
+    symbol: BTC
+    ma_window: 50
+    max_position_usd: 5000
+    max_trades_per_hour: 3
+
+  ETH:
+    symbol: ETH
+    ma_window: 50
+    max_position_usd: 3000
+    max_trades_per_hour: 3
+
+risk:
+  max_drawdown_pct: 2.0
+
+execution:
+  interval_seconds: 60
+
+logging:
+  trade_log: logs/trades.csv
