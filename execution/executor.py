@@ -91,7 +91,7 @@ def execute_trade(asset, target_pos, mid_price, state, orderbook,
             "price": px,
             "mid_price": mid_price,
             "size": size,
-            "pnl": pnl,
+            "realized_pnl": pnl,
             "exit_reason": reason
         }
 

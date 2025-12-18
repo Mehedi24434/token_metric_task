@@ -36,6 +36,6 @@ def generate_signal(price, ema, vol_rsi):
     - Elevated volatility regime
     """
     trend_ok = ema is not None and price > ema
-    volatility_ok = vol_rsi is not None and vol_rsi > 60
+    volatility_ok = vol_rsi is not None and vol_rsi > 40
 
     return 1 if (trend_ok and volatility_ok) else 0
